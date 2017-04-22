@@ -1,0 +1,33 @@
+[push]
+	default = nothing
+[user]
+	name = kazomura
+	email = kazomur+git@gmail.com
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit -m
+	aci = commit --amend -m
+	meld = difftool -d
+	tree = log --graph --pretty='format:%C(yellow)%h%Creset %s %Cgreen(%an)%Creset %Cred%d%Creset'
+	current = symbolic-ref --short HEAD
+	pr = pull-request
+	see = browse
+	cmp = compare
+[core]
+	excludesfile = ~/.gitignore_global
+	quotepath = false
+[diff]
+  tool = meld
+[difftool "meld"]
+  cmd = meld $LOCAL $REMOTE
+[merge]
+  tool = meld
+[mergetool "meld"]
+  cmd = meld $LOCAL $BASE $REMOTE --auto-merge
+[commit]
+	template = $HOME/.stCommitMsg
+[ghq]
+	root = ~/.ghq
+	root = ~/.go/src

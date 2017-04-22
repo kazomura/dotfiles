@@ -1,0 +1,50 @@
+
+# tap repositories and their packages
+
+tap caskroom/cask
+cask atom
+cask iterm2
+cask java
+cask kindle
+
+tap caskroom/versions
+
+tap homebrew/brewdler
+
+tap homebrew/bundle
+
+tap homebrew/core
+brew ant
+brew autoconf
+brew carthage
+brew gdbm
+brew git
+brew go
+brew hub
+brew icu4c
+brew ideviceinstaller
+brew libimobiledevice --HEAD
+brew libplist
+brew libtasn1
+brew libusb
+brew libxml2
+brew libzip
+brew lynx
+brew mas
+brew mongodb
+brew node
+brew openssl
+brew pcre
+brew pkg-config
+brew rbenv
+brew readline
+brew ruby-build
+brew sqlite
+brew tree
+brew usbmuxd
+brew wget
+brew yarn
+brew zsh
+
+tap rcmdnk/file
+brew brew-file
