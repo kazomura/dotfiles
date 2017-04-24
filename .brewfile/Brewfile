@@ -17,7 +17,9 @@ tap homebrew/core
 brew ant
 brew autoconf
 brew carthage
+brew chromedriver
 brew gdbm
+brew geckodriver
 brew git
 brew go
 brew hub
